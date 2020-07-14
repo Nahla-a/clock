@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>CLOCK</title>
+</head>
+
+<body>
+    <div class="bkg"></div>
+    <h1 class="title"> Welcome to My Clock App</h1>
+    <div class="dig-and-anal">
+
+        <!-- Main Page -->
+        <div class=" digital-and-analog">
+            <button class="digital-btn" onclick="digPage()"> Digital Clock</button>
+            <button class="analog-btn" onclick="analPage()"> Analog Clock</button> </div>
+    </div>
+    <!-- End of main page -->
+
+    <!-- Gigital buttons (12hr and 24 hrs) -->
+    <div class="digital-clocks">
+        <button class="clock12" onClick="shortFormat2()">12 HRs</button>
+        <div id="show-short-format"></div>
+        <button class="clock24" onclick="longFormat2()">24 HRs</button>
+        <div id="show-long-format"></div>
+    </div>
+    <!-- End of digital buttons -->
+
+
+    <!-- Back button -->
+    <dive class="back-btn">
+        <button onclick="back()"> Back </button>
+    </dive>
+    </div>
+
+   <script src="code2.js"></script>
+</body>
+
+</html>
